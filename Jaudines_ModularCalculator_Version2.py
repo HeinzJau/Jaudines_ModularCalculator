@@ -28,18 +28,19 @@ choice = input("Choice:") # Asks for the user's input
 
 if choice == "1":
     result = add_numbers(num1, num2)
+    print("Result:", result)
     
-if choice == "2":
-    result = subtract_numbers_numbers(num1, num2)
+elif choice == "2":
+    result = subtract_numbers(num1, num2)
+    print("Result:", result)
     
-if choice == "3":
+elif choice == "3":
     result = multiply_numbers(num1, num2)
+    print("Result:", result)
     
-if choice == "4":
+elif choice == "4":
     result = divide_numbers(num1, num2)
-
-print("Result:", result)
+    print("Result:", result)
 
 else:
     print("Unknown operation")
-    
